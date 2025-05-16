@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Scaling Image and Video Generation via
+Test-Time Evolutionary Search">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvoSearch</title>
+    <!-- <link rel='icon' type='image/png' href='static/assets/logo_plus.png'> -->
+    <link rel="stylesheet" href="./static/css/own.min.css">
+    <link rel="stylesheet" href="./static/css/custom.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Shantell+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" rel="stylesheet"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./static/css/index.min.css">
+    <script defer src="./static/js/index.min.js"></script>
+    
+</head>
+
+
+<body>
+
+    <section class="hero">
+        <div class="hero-body-background">
+            <div class="hero-body-background-div" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 1;"></div>
+            <div style="text-align: center; z-index: 1; margin-top: 60px">
+                <!-- <p class="sansfont acmefont shadowtext make-font" style="color: #FFFFFF; display: inline; margin-right: 20pt; font-weight: 600">Make</p> -->
+                <p class="word1 shakefont shadowtext" style="margin-right: -10px; color: #FFC5C5;font-family:fantasy">E</p>
+                <p class="word2 shakefont shadowtext" style="margin-right: -2px; color: #ecd1aa;font-family:fantasy">v</p>
+                <p class="word3 shakefont shadowtext" style="margin-right: -2px; color: #fe8e8e;font-family:fantasy">o</p>
+                <p class="word4 shakefont shadowtext" style="margin-right: -10px; color: #98d4e6;font-family:fantasy">S</p>
+                <p class="word5 shakefont shadowtext" style="margin-right: -10px; color: #9fd8ca;font-family:fantasy">e</p>
+                <p class="word6 shakefont shadowtext" style="margin-right: -10px; color: #a4d6dd;font-family:fantasy">a</p>
+                <p class="word7 shakefont shadowtext" style="margin-right: -10px; color: #dcdda4;font-family:fantasy">r</p>
+                <p class="word1 shakefont shadowtext" style="margin-right: -10px; color: #FFC5C5;font-family:fantasy">c</p>
+                <p class="word2 shakefont shadowtext" style="margin-right: -2px; color: #ecd1aa;font-family:fantasy">h</p>
+                <!-- <p class="word3 shakefont shadowtext" style="margin-right: -2px; color: #fe8e8e;font-family:PressStart2P">r</p>
+                <p class="word4 shakefont shadowtext" style="margin-right: -10px; color: #98d4e6;font-family:PressStart2P">y</p> -->
+    
+                <!-- <p class="word6 shakefont shadowtext" style="color: #9fd8ca;font-family:PressStart2P">S</p> -->
+                <!-- <p class="sansfont acmefont shadowtext make-font" style="color: #FFFFFF; display: inline; margin-left: 15pt; font-weight: 600">Dance</p> -->
+    
+                <p class="acmefont shadowtext high-font" style="color: #FFFFFF;">
+                    Scaling Image and Video Generation via Test-Time Evolutionary Search
+                </p>
+                <!-- <p class="author-block sansfont shadowtext" style="color: #FFFFFF; font-size: 1.8em;">
+                    CVPR 2024
+                </p> -->
+            </div>
+    
+        </div>
+        </div>
+    </section>
+
+
+    
+
+
+
+    <!-- <section class="hero">
+        <div class="hero-body-subtitle-light"  style="display: block">
+            <div class="columns is-centered has-text-centered">
+                <div class="container is-max-maxwidth">
+                    <div class="title is-2 sansfont" style="font-family:'Acme';color:#595959; font-size: 68px;">
+                        In-Domain Minecraft Results
+                    </div>
+                    
+                </div>
+            </div>
+    
+        </div>
+    </section> -->
+
+    
+    
+   
+
+    <!-- <section class="hero">
+        <div class="hero-body-subtitle-light"  style="display: block">
+            <div class="columns is-centered has-text-centered">
+                <div class="container is-max-maxwidth">
+                    <div class="title is-2 sansfont" style="font-family:'Acme';color:#595959; font-size: 68px;">
+                        Action-Controlled Long Video Results
+                    </div>
+                    
+                </div>
+            </div>
+    
+        </div>
+    </section> -->
+
+    
+    
+    <!-- <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <h4 class="subtitle has-text-centered">
+
+                        <div class="columns is-multiline">
+                        <div class="column is-one-quarter">
+                            <video controls>
+                            <source src="./videos/long/1.mp4" type="video/mp4">
+                            
+                            </video>
+                            <p class="has-text-centered">Example #1</p>
+                        </div>
+                        <div class="column is-one-quarter">
+                            <video controls>
+                            <source src="./videos/long/2.mp4" type="video/mp4">
+                            
+                            </video>
+                            <p class="has-text-centered">Example #2</p>
+                        </div>
+                        <div class="column is-one-quarter">
+                            <video controls>
+                            <source src="./videos/long/3.mp4" type="video/mp4">
+                            
+                            </video>
+                            <p class="has-text-centered">Example #3</p>
+                        </div>
+                        <div class="column is-one-quarter">
+                            <video controls>
+                            <source src="./videos/long/4.mp4" type="video/mp4">
+                            
+                            </video>
+                            <p class="has-text-centered">Example #4</p>
+                        </div>
+                        </div>
+
+                        
+
+
+
+                    </div>
+                </h4>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="hero">
+        <div class="hero-body-subtitle-light"  style="display: block">
+            <div class="columns is-centered has-text-centered">
+                <div class="container is-max-maxwidth">
+                    <div class="title is-2 sansfont" style="font-family:'Acme';color:#595959; font-size: 68px;">
+                        Our Method
+                    </div>
+                    
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <h4 class="subtitle has-text-centered">
+                    <div class="content has-text-justified">
+                        <p>
+                            We present <b><span style="color: #4FACFA;">GameFactory</span></b>, a <b>generalizable world model</b> that learns from a small-scale dataset of Minecraft game videos. By leveraging the prior knowledge of a pretrained video diffusion model, it can create new games in an open domain.
+                        </p>
+                    </div>
+                </h4>
+            </div>
+        </div>
+    </section> -->
+
+
+<footer class="footer" style="padding: 2em;">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
